@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1gq1m5d84moa"]
+
+[ext_resource type="PackedScene" uid="uid://bd61gqc8ur7bi" path="res://scenes/wall_container.tscn" id="1_xvmcc"]
+[ext_resource type="PackedScene" uid="uid://co0d7mqrq4rh8" path="res://scenes/player.tscn" id="2_k60ar"]
+
+[node name="Game" type="Node2D"]
+
+[node name="wall_container" parent="." instance=ExtResource("1_xvmcc")]
+
+[node name="player" parent="." instance=ExtResource("2_k60ar")]
+position = Vector2(360, 950)
